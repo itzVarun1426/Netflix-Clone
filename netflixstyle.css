@@ -1,0 +1,347 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: black;
+}
+
+.landpage {
+  /* overflow-y: hidden;
+    overflow-x:hidden; */
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/51c1d7f7-3179-4a55-93d9-704722898999/be90e543-c951-40d0-9ef5-e067f3e33d16/IN-en-20240610-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  background-color: red;
+  height: 670px;
+  width: 100%;
+  position: relative;
+}
+
+.box {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    to top,
+    rgb(0, 0, 0),
+    rgb(0, 0, 0),
+    rgba(0, 0, 0, 0.852),
+    rgba(0, 0, 0, 0.589),
+    rgb(0, 0, 0),
+    rgb(0, 0, 0)
+  );
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+nav {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 99999;
+}
+
+.left img {
+  width: 155px;
+  height: fit-content;
+  background-color: black;
+}
+
+.language_button svg {
+  width: 20px;
+  height: 20px;
+  border: none;
+  fill: white;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 5px 15px;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 300;
+  gap: 20px;
+}
+
+.language_button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 7px 12px;
+  gap: 5px;
+  border: 1px solid rgba(229, 229, 229, 0.611);
+  border-radius: 6px;
+  width: fit-content;
+}
+
+.signup_button {
+  background-color: red;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  color: white;
+  border-radius: 6px;
+}
+
+.language_button:hover {
+  scale: 1.1;
+}
+
+.signup_button:hover {
+  background-color: rgb(188, 3, 3);
+  scale: 1.1;
+}
+
+.midpart {
+  position: relative;
+  z-index: 999;
+  /* height: calc(100% - 100px); */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 110px auto;
+}
+
+.main_text1 {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: "Helvetica Neue", sans-serif, sans-serif;
+  margin-top: 80px;
+  letter-spacing: 0;
+  word-spacing: 0px;
+  text-align: center;
+}
+
+.main_text2 {
+  font-size: 24px;
+  font-family: "Helvetica Neue", sans-serif, sans-serif;
+  margin: 19px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.main_text3 {
+  font-size: 20px;
+  font-family: "Helvetica Neue", sans-serif, sans-serif;
+  font-weight: 500;
+  margin: 10px;
+  text-align: center;
+}
+
+.main_email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 10px;
+}
+
+.main_email_input {
+  border: 1px solid rgba(204, 204, 204, 0.734);
+  padding: 1.2rem 9.5rem 1.1rem 1rem;
+  border-radius: 4px;
+  min-height: 16px;
+  min-width: 16px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  font-size: 1rem;
+}
+
+.main_email_button {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  max-height: 3.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  color: white;
+  border-radius: 6px;
+}
+
+.main_email_button svg {
+  height: 40px;
+  width: 40px;
+  filter: invert();
+}
+
+.rectangle {
+  position: relative;
+  background-color: rgb(35, 35, 35);
+  height: 0.5rem;
+  width: 99vw;
+}
+
+.seccont {
+  background-color: black;
+  /* height: 560px; */
+  width: fit-content;
+  padding: 72px;
+}
+
+.section-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height:auto ; */
+  max-width: calc(95.333334% - 6rem);
+  margin: auto;
+}
+
+.section-text {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding-right: 6px;
+  color: white;
+  margin: 0px 20px;
+}
+
+.section-text :nth-child(1) {
+  font-family: "Helvetica Neue", sans-serif, sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.section-text :nth-child(2) {
+  font-family: "Helvetica Neue", sans-serif, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 16px 0px;
+}
+.section-img {
+  /* height: min-content; */
+  position: relative;
+  margin-left: 20px;
+}
+.section-img img {
+  height: 400px;
+  position: relative;
+  z-index: 89;
+}
+
+.section-img video {
+  position: absolute;
+  top: 83px;
+  left: 71px;
+  height: 218px;
+}
+.section2-pop {
+  position: absolute;
+  bottom: 8%;
+  z-index: 99;
+  background-color: brown;
+  border: 3px solid white;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+#section-right3 {
+  position: absolute;
+  top: 33px;
+  left: 93px;
+  height: 194px;
+}
+.section4 {
+  margin: 20px;
+  font-size: 24px;
+}
+
+.faq h2 {
+  font-size: 48px;
+  color: white;
+  font-family: "Helvetica Neue", sans-serif, sans-serif;
+  margin: 25px;
+}
+
+.faq {
+  text-align: center;
+  width: 75%;
+  margin: 70px auto;
+  color: white;
+  font-family: "Helvetica Neue", sans-serif, sans-serif;
+}
+.faques {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 60px;
+}
+.question {
+  font-size: 24px;
+  color: white;
+  font-family: "Helvetica Neue", sans-serif, sans-serif;
+  background-color: rgb(45, 45, 45);
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 25px;
+}
+.faqbot-text {
+  font-size: 23px;
+  width: 100%;
+  margin: 25px auto;
+}
+.faqbot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question span:hover {
+  cursor: pointer;
+}
+.footer {
+  color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  font-family: "Helvetica Neue", sans-serif, sans-serif;
+  flex-direction: column;
+  max-width: 80%;
+  margin: 4.5rem auto;
+  padding: 0px 48px;
+}
+
+.ftchdiv1 {
+  font-size: 16px;
+  font-family: "Helvetica Neue", sans-serif, sans-serif;
+  
+}
+.ftchdiv2{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 20px 0px;
+  
+  list-style: none;
+  font-size: 0.875rem;
+  font-weight: 400;
+  
+}
+.footerdiv{
+  display: flex;
+  flex-direction: column ;
+}
+.footer a {
+  color: rgba(255, 255, 255, 0.7);
+  margin: 10px 0;
+
+}
+
+
